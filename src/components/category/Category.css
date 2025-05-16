@@ -6,3 +6,10 @@
     flex-direction: column;
     gap: 1vw;
 }
+
+.category-container h2 {
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}

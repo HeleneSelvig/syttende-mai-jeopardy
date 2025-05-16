@@ -12,7 +12,7 @@
 .new-page-button {
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    font-size: large;
+    font-size: xx-large;
     color: white;
 
     background-color: rgba(139, 0, 0, 0.8);
@@ -35,4 +35,12 @@
 .url {
     color: #fff;
     text-decoration: none;
+}
+
+.challenge-container h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1.3vw;
 }

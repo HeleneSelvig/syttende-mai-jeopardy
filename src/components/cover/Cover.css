@@ -16,3 +16,11 @@
   filter: brightness(75%);
   scale: 1;
 }
+
+.cover-container h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  font-size: xx-large;
+  color: white;
+  margin-top: 1.5vw;
+}

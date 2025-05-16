@@ -1,0 +1,29 @@
+/* Global styling */
+.fullscreen-modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreen-modal div button {
+    font-size: 2.5vw;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.8);
+    border: none;
+    border-radius: 1vw;
+    padding: 1vw 4vw;
+    /* Increase horizontal padding */
+    margin: 2vw 0;
+    cursor: pointer;
+    min-width: 20vw;
+    /* Ensures button is wide enough */
+    white-space: nowrap;
+    /* Prevents line break */
+}

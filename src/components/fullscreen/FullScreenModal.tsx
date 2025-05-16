@@ -1,5 +1,6 @@
 import { ReactNode, useEffect } from "react";
 import '../challenge/Challenge.css';
+import './FullScreenModal.css';
 
 interface FullscreenModalProps {
     open: boolean;
@@ -21,15 +22,7 @@ export default function FullscreenModal({ open, onClose, children }: FullscreenM
 
     return (
         <div
-            style={{
-                position: "fixed",
-                zIndex: 1000,
-                top: 0, left: 0, right: 0, bottom: 0,
-                background: "rgba(0,0,0,0.9)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
-            }}
+            className="fullscreen-modal"
             onClick={onClose}
         >
             <div
