@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <div className="header-container">
-        <h1 className="header glow">Halloween Jeopardy!</h1>
+        <h1 className="header">17. mai jeopardy!</h1>
 
         <div className="resetButton-container">
           <ResetButton />
@@ -16,19 +16,19 @@ export default function App() {
 
       <div className="app-container">
         {[
-          "Heksegryta",
-          "Ha-ha-halloween",
-          "Trick or treat?",
-          "Godteriskåla",
-          "Kostymefest"
+          "Musikk",
+          "Sport",
+          "Kultur",
+          "Mysterie",
+          "Alko"
         ].map(
           (title, i) => {
             const challenges_list = [
-              ChallengeLists.heksegryta_challenges,
-              ChallengeLists.hahahalloween_challenges,
-              ChallengeLists.trick_or_treat_challenges,
-              ChallengeLists.godteriskala_challenges,
-              ChallengeLists.kostymefest_challenges
+              ChallengeLists.musikk_challenges,
+              ChallengeLists.sport_challenges,
+              ChallengeLists.kultur_challenges,
+              ChallengeLists.mysterie_challenges,
+              ChallengeLists.alko_challenges
             ];
             return (
               <>
@@ -38,16 +38,12 @@ export default function App() {
           }
         )}
         <div className="points-category">
-          <h2>Poeng</h2> 
+          <h2>Poeng</h2>
           <div className="points-container">
             {[{
               id: 1,
             }, {
               id: 2,
-            }, {
-              id: 3,
-            }, {
-              id: 4,
             }].map((team) =>
               <div className="points-slots">
                 <h3>Team {team.id}</h3>

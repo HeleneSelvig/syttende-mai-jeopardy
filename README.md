@@ -1,8 +1,9 @@
-# Tobias og Helenes halloween
+# Helenes 17. mai Jeopardy
 
-Dette er halloween jeopardy med en tvist, laget i React.  
-For å kjøre appen skriver du bare "pnpm dev" i terminalen, og trykker på localhost-linken.
+Dette er 17.mai jeopardy med en tvist, laget i React.  
+For å kjøre appen:
+'pnpm install' 
+så 
+'pnpm dev' 
+og trykker på localhost-linken.
 
-Enter at your own risk!
-
-![Skikkelig skummelt bilde](/public/skikkelig-skummelt-bilde.png)
