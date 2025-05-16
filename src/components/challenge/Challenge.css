@@ -1,0 +1,38 @@
+/* Challenge component styling */
+.challenge-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1.2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.new-page-button {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+
+    background-color: rgba(139, 0, 0, 0.8);
+    width: 70%;
+    height: 70%;
+
+    position: relative;
+    margin: auto;
+    border: none;
+    border-radius: 1vw;
+    justify-self: center;
+    transition: 0.15s;
+}
+
+.new-page-button:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.url {
+    color: #fff;
+    text-decoration: none;
+}

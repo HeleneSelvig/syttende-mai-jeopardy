@@ -1,0 +1,76 @@
+/* Import font used in header */
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+
+/* App component styling */
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+
+.header {
+    font-size: 3.7vw;
+    font-family: Nosifer;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.glow {
+    color: darkred;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
+}
+
+.resetButton-container {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.app-container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.images-container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.points-category {
+    margin-left: 1vw;
+}
+
+.points-container {
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.points-slots {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0.1vw solid white;
+
+    height: 7.8vw;
+    width: 12vw;
+    position: relative;
+    border-radius: 1.2vw;
+
+    align-items: center;
+}
+
+.points-slots input {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.1vw solid white;
+    
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+

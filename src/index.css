@@ -1,0 +1,13 @@
+/* General styling */
+body {
+  height: 100dvh;
+  background-image: url("assets/halloween.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+}
